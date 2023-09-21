@@ -1,1 +1,1 @@
-# day12-bts-rwd
+# Bootstrap RWD
