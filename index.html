@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap RWD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <style>
+    .card-body1 {
+        position: relative;
+      height: 500px;
+      width: 100%;
+    }
+    .input-group {
+        position: absolute;
+        top: 100px;
+        margin-left: 600px;
+        width:650px;
+        }
+    .col-md-4 {
+      height: 200px; /* Set the desired height for the square cards */
+      margin-top: 100px;
+      margin-left: 25px; 
+      width: 30%;
+    }
+    .card.mb-3.bg-black {
+      height: 100%; /* Make the cards fill their container's height */
+      border: none; /* Remove the card border if needed */
+    }
+    .card-body2 {
+      height: 200px;
+      width: 100%;
+    }
+    .form-control::placeholder {
+        color: #a6a6a6;
+    }
+    .github-icon {
+      font-size: 32px;
+        color: white;
+    }
+
+    .github-text {
+      font-size: 18px;
+        color: white;
+    }
+    .bg-custom {
+      background-color: #2f3d46;
+    }    
+  </style>
+  <body style="background-color: #cad2c5;">
+    <div class="container-fluid">
+      <div class="row bg-custom m-6">
+        <div class="col-1 pt-4 ps-4">
+          <i class="fa-brands fa-github github-icon"></i>
+        </div>
+        <div class="col-11 d-flex justify-content-center p-4">
+            <span class="github-text">GITHUB</span>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3 bg-black">
+            <div class="card-body1"><br>
+            </div>  
+        </div>
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" style="background-color: black;">
+          </div><br><br><br><br>
+        <div class="col-md-9">
+          <div class="row" style="margin-top: 20px;">
+            <div id="card0" class="col-md-4">
+              <div class="card mb-3 bg-black">
+                <div class="card-body2">
+                  <!-- Content for card0 -->
+                </div>
+              </div>
+            </div>
+            <div id="card1" class="col-md-4">
+              <div class="card mb-3 bg-black">
+                <div class="card-body2">
+                  <!-- Content for card1 -->
+                </div>
+              </div>
+            </div>
+            <div id="card2" class="col-md-4">
+              <div class="card mb-3 bg-black">
+                <div class="card-body2">
+                  <!-- Content for card2 -->
+                </div>
+              </div>
+            </div>
+          </div><br><br><br>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card mb-3 bg-black">
+                <div class="card-body2">
+                  <!-- Content for the second column's bottom card -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
